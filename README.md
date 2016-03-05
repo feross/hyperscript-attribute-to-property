@@ -41,7 +41,7 @@ var attrToProp = require('hyperscript-attribute-to-property')
 var h = attrToProp(require('virtual-dom/h'))
 ```
 
-## hyperx
+### hyperx
 
 If you use the [hyperx](https://npmjs.com/package/hyperx) package, then this functionality
 is built-in and implemented via this package :)
