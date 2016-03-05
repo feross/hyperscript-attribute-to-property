@@ -9,7 +9,7 @@
 
 ### Convert hyperscript attributes to properties
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/hyperscript-attribute-to-property.svg)](https://saucelabs.com/u/hyperscript-attribute-to-property)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/hyperscript-attr.svg)](https://saucelabs.com/u/hyperscript-attr)
 
 Some html attributes have different JavaScript property names. The most annoying of these
 is `class` v.s. `className`.
