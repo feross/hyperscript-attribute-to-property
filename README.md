@@ -1,11 +1,9 @@
-# hyperscript-attribute-to-property [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+# hyperscript-attribute-to-property [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url]
 
 [travis-image]: https://img.shields.io/travis/feross/hyperscript-attribute-to-property/master.svg
 [travis-url]: https://travis-ci.org/feross/hyperscript-attribute-to-property
 [npm-image]: https://img.shields.io/npm/v/hyperscript-attribute-to-property.svg
 [npm-url]: https://npmjs.org/package/hyperscript-attribute-to-property
-[downloads-image]: https://img.shields.io/npm/dm/hyperscript-attribute-to-property.svg
-[downloads-url]: https://npmjs.org/package/hyperscript-attribute-to-property
 
 ### Convert hyperscript attributes to properties
 
