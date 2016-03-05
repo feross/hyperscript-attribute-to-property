@@ -1,6 +1,6 @@
 {
   "name": "hyperscript-attribute-to-property",
-  "description": "Convert hyperscript attributes to properties, for convenience",
+  "description": "Convert hyperscript attributes to properties",
   "version": "0.0.0",
   "author": {
     "name": "Feross Aboukhadijeh",
