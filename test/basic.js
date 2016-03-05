@@ -1,4 +1,4 @@
-var attrToProp = require('hyperscript-attribute-to-property')
+var attrToProp = require('../')
 var h = attrToProp(require('virtual-dom/h'))
 var test = require('tape')
 
