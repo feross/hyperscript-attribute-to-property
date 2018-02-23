@@ -1,5 +1,7 @@
 # hyperscript-attribute-to-property [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/feross/hyperscript-attribute-to-property.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://img.shields.io/travis/feross/hyperscript-attribute-to-property/master.svg
 [travis-url]: https://travis-ci.org/feross/hyperscript-attribute-to-property
 [npm-image]: https://img.shields.io/npm/v/hyperscript-attribute-to-property.svg
