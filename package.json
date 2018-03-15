@@ -12,10 +12,10 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "airtap": "0.0.4",
     "standard": "*",
     "tape": "^4.0.0",
-    "virtual-dom": "^2.1.1",
-    "zuul": "^3.0.0"
+    "virtual-dom": "^2.1.1"
   },
   "homepage": "https://github.com/feross/hyperscript-attribute-to-property",
   "keywords": [
@@ -36,8 +36,8 @@
   },
   "scripts": {
     "test": "standard && npm run test-node && npm run test-browser",
-    "test-browser": "zuul -- test/*.js",
-    "test-browser-local": "zuul --local -- test/*.js",
+    "test-browser": "airtap -- test/*.js",
+    "test-browser-local": "airtap --local -- test/*.js",
     "test-node": "tape test/*.js"
   }
 }
