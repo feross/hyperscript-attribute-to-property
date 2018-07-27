@@ -12,7 +12,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "airtap": "0.0.7",
     "standard": "*",
     "tape": "^4.0.0",
     "virtual-dom": "^2.1.1"
@@ -35,9 +34,6 @@
     "url": "git://github.com/feross/hyperscript-attribute-to-property.git"
   },
   "scripts": {
-    "test": "standard && npm run test-node && npm run test-browser",
-    "test-browser": "airtap -- test/*.js",
-    "test-browser-local": "airtap --local -- test/*.js",
-    "test-node": "tape test/*.js"
+    "test": "standard && tape test/*.js"
   }
 }
