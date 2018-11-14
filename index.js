@@ -4,7 +4,7 @@ var transform = {
   'class': 'className',
   'for': 'htmlFor',
   'http-equiv': 'httpEquiv',
-  'srcset': 'srcSet',
+  'srcset': 'srcSet'
 }
 
 function attributeToProperty (h) {
