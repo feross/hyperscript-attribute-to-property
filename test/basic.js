@@ -19,3 +19,9 @@ test('http-equiv -> httpEquiv', function (t) {
   t.equal(vnode.properties.httpEquiv, 'value')
   t.end()
 })
+
+test('srcset -> srcSet', function (t) {
+  var vnode = h('div', { 'srcset': 'value' })
+  t.equal(vnode.properties.srcSet, 'value')
+  t.end()
+})
