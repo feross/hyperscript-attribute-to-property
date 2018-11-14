@@ -3,7 +3,8 @@ module.exports = attributeToProperty
 var transform = {
   'class': 'className',
   'for': 'htmlFor',
-  'http-equiv': 'httpEquiv'
+  'http-equiv': 'httpEquiv',
+  'srcset': 'srcSet',
 }
 
 function attributeToProperty (h) {
