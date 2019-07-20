@@ -1,8 +1,8 @@
 module.exports = attributeToProperty
 
 var transform = {
-  'class': 'className',
-  'for': 'htmlFor',
+  class: 'className',
+  for: 'htmlFor',
   'http-equiv': 'httpEquiv'
 }
 
