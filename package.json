@@ -13,7 +13,7 @@
   "dependencies": {},
   "devDependencies": {
     "standard": "*",
-    "tape": "^4.0.0",
+    "tape": "^5.0.0",
     "virtual-dom": "^2.1.1"
   },
   "homepage": "https://github.com/feross/hyperscript-attribute-to-property",
