@@ -1,14 +1,12 @@
-module.exports = attributeToProperty
-
-var transform = {
+const transform = {
   class: 'className',
   for: 'htmlFor',
   'http-equiv': 'httpEquiv'
 }
 
-function attributeToProperty (h) {
+export default function attributeToProperty (h) {
   return function (tagName, attrs, children) {
-    for (var attr in attrs) {
+    for (const attr in attrs) {
       if (attr in transform) {
         attrs[transform[attr]] = attrs[attr]
         delete attrs[attr]
