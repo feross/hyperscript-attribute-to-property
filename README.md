@@ -17,20 +17,20 @@ is `class` v.s. `className`.
 With this package, you can do this:
 
 ```js
-var vnode = h('div', { class: 'my-class' })
+const vnode = h('div', { class: 'my-class' })
 ```
 
 Instead of this:
 
 ```js
-var vnode = h('div', { className: 'my-class' })
+const vnode = h('div', { className: 'my-class' })
 ```
 
 Works with [virtual-dom](https://www.npmjs.com/package/virtual-dom), [react](https://www.npmjs.com/package/react), [hyperscript](https://www.npmjs.com/package/hyperscript), or any DOM builder with a hyperscript-style API: `h(tagName, attrs, children)`.
 
 ## install
 
-```
+```bash
 npm install hyperscript-attribute-to-property
 ```
 
@@ -39,8 +39,10 @@ npm install hyperscript-attribute-to-property
 ###  example
 
 ```js
-var attrToProp = require('hyperscript-attribute-to-property')
-var h = attrToProp(require('virtual-dom/h'))
+import attrToProp from 'hyperscript-attribute-to-property'
+import pkg        from 'virtual-dom/h.js'
+
+const h = attrToProp(pkg)
 ```
 
 ### hyperx
